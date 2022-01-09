@@ -65,7 +65,6 @@ public void addToCart() throws InterruptedException{
          By ele = (By.xpath("//input[@id='add-to-cart-button']"));
          wait.until(ExpectedConditions.elementToBeClickable(ele));
          WebElement ele1 = driver.findElement(By.xpath("//input[@id='add-to-cart-button']"));
-
          WebElement ele2 = driver.findElement(By.xpath("//span[@id='attachSiAddCoverage']//input"));
          Thread.sleep(3000);
          ele1.click();
