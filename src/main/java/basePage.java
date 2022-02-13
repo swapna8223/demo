@@ -24,7 +24,13 @@ public WebDriver getDriver(){
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
     //    driver.get("https://www.amazon.co.uk/");
-        driver.get("https://purple.com/");
+     //   driver.get("https://purple.com/");
+       // driver.get("http://demo.automationtesting.in/Alerts.html");
+      //  driver.get("http://demo.automationtesting.in/Windows.html");
+      //  driver.get("http://demo.automationtesting.in/Frames.html");
+       // driver.get("http://demo.automationtesting.in/Static.html");
+      //  driver.get("http://demo.automationtesting.in/Datepicker.html");
+        driver.get("http://practice.automationtesting.in/");
 }
 
     @AfterTest

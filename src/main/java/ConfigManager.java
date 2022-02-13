@@ -11,6 +11,16 @@ public class ConfigManager {
     private String fileSeperator = System.getProperty("file.separator");
     private String ConfigFilePath=System.getProperty("user.dir") + fileSeperator +"TestData"+fileSeperator+ "App.properties";
 
+    public ConfigManager(int a){
+
+
+    }
+
+    public ConfigManager(){
+
+
+    }
+
     private void loadProperties() {
         FileInputStream fis;
         try {
